@@ -1,0 +1,35 @@
+.menu {
+	position: absolute;
+	background-color: #fff;
+	color: black;
+	top: 50px;
+	width: 150px;
+	padding: 10px 0;
+	border-radius: 5px;
+	animation: menuFadeIn 0.3s ease-in-out forwards;
+}
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 15px;
+}
+.menu li:hover {
+	font-weight: 500;
+}
+.headerItem {
+	position: relative;
+	padding: 15px;
+	cursor: pointer;
+}
+
+@keyframes menuFadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,30 @@
+.footerColumn {
+	flex: 1;
+	color: hsl(240, 2%, 79%);
+}
+.footerColumn ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footerColumn ul li {
+	cursor: pointer;
+	padding: 5px 0;
+	width: 50px;
+}
+.footerColumn li:hover {
+	font-weight: 500;
+}
+.footerBolder {
+	font-weight: 500;
+}
+
+@media (max-width: 800px) {
+	.footerColumn {
+		margin-top: 20px;
+	}
+	.footerColumn:last-child {
+		padding-bottom: 15px;
+	}
+}

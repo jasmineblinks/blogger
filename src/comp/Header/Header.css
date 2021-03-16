@@ -1,0 +1,154 @@
+.header {
+	width: 100%;
+	height: 600px;
+	border-radius: 0 0 0 75px;
+	background: url("../../images/bg-pattern-intro.svg") 20% 50% no-repeat,
+		linear-gradient(90deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 100%);
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+.headerNavigation {
+	display: flex;
+	/* min-width: 80%; */
+	height: fit-content;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px 20px;
+	justify-content: space-between;
+}
+.headerLeft,
+.headerRight {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.headerItem {
+	padding: 15px;
+	cursor: pointer;
+}
+.logoImage {
+	margin-right: 40px;
+}
+.signUp {
+	background-color: #fff;
+	padding: 10px 30px;
+	color: hsl(356, 100%, 66%);
+	font-weight: 700;
+	border-radius: 20px;
+	transition: 0.2s ease-in-out background-color, color;
+	cursor: pointer;
+}
+.signUp:hover,
+.startButton:hover {
+	background-color: hsl(355, 100%, 74%);
+	color: #fff;
+}
+.headerText {
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+.headerText h1,
+.headerText span {
+	text-align: center;
+	font-family: "Overpass", sans-serif;
+}
+.headerText h1 {
+	font-size: 60px;
+	margin: 0;
+}
+.headerText span {
+	letter-spacing: 1px;
+}
+.button {
+	/* width: 50px; */
+	padding: 12px 15px;
+	border-radius: 25px;
+	width: 150px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.2s ease-in-out background-color, color;
+}
+.startButton {
+	background-color: #fff;
+	color: hsl(356, 100%, 66%);
+}
+.learnButton {
+	border: 1px solid white;
+}
+.learnButton:hover {
+	color: hsl(355, 100%, 74%);
+	background-color: #fff;
+}
+.headerText_buttonsContainer {
+	display: flex;
+	gap: 10px;
+	margin-top: 10%;
+	font-weight: 700;
+}
+/* MOBILE VERSION  /////////////////////////////////////*/
+.headerNavigation_Mobile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 20px;
+}
+.logoImage_Mobile {
+	align-self: flex-start;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.optionsMenu_Mobile {
+	background-color: white;
+	margin-top: 40px;
+	min-height: 400px;
+	max-width: 400px;
+	width: 98%;
+	justify-content: center;
+	font-weight: 500;
+	color: black;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+	font-size: 22px;
+}
+.headerLeft_Mobile,
+.headerRight_Mobile {
+	display: flex;
+	flex-direction: column;
+}
+.headerRight_Mobile {
+	border-top: 1px solid rgba(128, 128, 128, 0.342);
+	align-items: center;
+}
+.optionsMenu_Mobile .headerItem {
+	text-align: center;
+	width: fit-content;
+	align-self: center;
+}
+
+.signUp_Mobile {
+	background-color: red;
+	border-radius: 25px;
+	background: linear-gradient(
+		90deg,
+		rgba(255, 143, 112, 1) 0%,
+		rgba(255, 61, 84, 1) 100%
+	);
+	color: white;
+	padding: 10px 30px;
+}
+
+@media (max-width: 600px) {
+	.headerText h1 {
+		font-size: 30px;
+	}
+}
