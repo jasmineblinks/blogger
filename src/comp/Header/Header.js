@@ -30,6 +30,7 @@ const Header = () => {
                     <div className="button startButton">Start for Free</div>
                 <div className="button learnButton">Learn More</div>
                 </div>
+                <div></div>
                 
             </div>
             } 
