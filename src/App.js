@@ -1,4 +1,4 @@
-import FirstContent from './comp/FirstContent./FirstContent';
+// import FirstContent from './comp/FirstContent./FirstContent';
 import Header from './comp/Header/Header';
 import "./App.css"
 import React, { useState, useEffect, useCallback } from 'react';
@@ -42,7 +42,7 @@ useEffect(()=>{
     <StateContext.Provider value={{isMobileVersion, setIsMobileVersion,isMobileMenuOpen, setIsMobileMenuOpen}}>
         <div className="app">
           <Header/>
-          <FirstContent/>
+          {/* <FirstContent/> */}
           <SecondContent/>
           <ThirdContent/>
           <Footer/>
