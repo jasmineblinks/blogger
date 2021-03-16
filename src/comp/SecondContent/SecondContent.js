@@ -3,7 +3,9 @@ import PhonesSvg from '../../images/illustration-phones.svg';
 
 const SecondContent = () => {
     return ( 
-        <div className="secondContent">
+        <div
+         className="secondContent"
+         >
             <div className="secondContent_Container">
                 <img src={PhonesSvg} alt=""/>
                 <div className="secondContent_Text">
