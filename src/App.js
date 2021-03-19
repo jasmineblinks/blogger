@@ -5,7 +5,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import SecondContent from "./comp/SecondContent/SecondContent";
 import ThirdContent from "./comp/ThirdContent/ThirdContent";
 import Footer from "./comp/Footer/Footer";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 export const StateContext = React.createContext();
 
