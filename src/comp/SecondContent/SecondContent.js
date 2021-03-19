@@ -1,7 +1,7 @@
 import "./SecondContent.css";
-import React, { useState, useEffect, useCallback } from "react";
+import React from "react";
 import PhonesSvg from "../../images/illustration-phones.svg";
-import { motion, useMotionValue } from "framer-motion";
+import { motion } from "framer-motion";
 
 const SecondContent = () => {
   const [shouldShowActions, setShouldShowActions] = React.useState(false);
